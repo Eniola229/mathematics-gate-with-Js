@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Programming Game - Score</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Java Programming Game - Score</h1>
+    </header>
+    <div id="score">Your Score: <span id="scoreValue"></span></div>
+    <button onclick="goHome()">GO BACK HOME</button>
+    <p>Built By Adeyemi Joshua Eniola</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("scoreValue").textContent = localStorage.getItem("score");
+  </script>
+</body>
+</html>

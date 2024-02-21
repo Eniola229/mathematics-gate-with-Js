@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Programming Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Java Programming Game</h1>
+    </header>
+    <div id="challenge"></div>
+    <div id="timer">Time Left: <span id="time">60</span> seconds</div>
+    <textarea id="editor" rows="10" cols="50" placeholder="Write your Java code here"></textarea>
+    <button onclick="checkCode()">Next</button>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
